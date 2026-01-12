@@ -51,3 +51,7 @@ Expression values were generated using distributions that mimic RNA-seq-like beh
 The TP53 expression values were stored as object (string) rather than numeric, which prevented plotting and statistical testing.
 Solution: 
 This required explicit conversion to numeric types to ensure correct visualization and analysis.
+
+Data Management and Reproducibility Note
+
+The raw synthetic data folder (brca_synthetic_expression) was removed from this repository to keep the project lightweight and stay within GitHub file size limits.
